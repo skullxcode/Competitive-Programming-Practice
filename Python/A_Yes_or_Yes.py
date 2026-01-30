@@ -1,0 +1,7 @@
+t = int(input())
+for _ in range(t):
+    s =input()
+    if s.count("Y")<=1:
+        print("YES")
+    else:
+        print("NO")
